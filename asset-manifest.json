@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/Bomflix/static/js/main.fdbe841b.chunk.js",
+    "main.js.map": "/Bomflix/static/js/main.fdbe841b.chunk.js.map",
+    "runtime-main.js": "/Bomflix/static/js/runtime-main.443498af.js",
+    "runtime-main.js.map": "/Bomflix/static/js/runtime-main.443498af.js.map",
+    "static/js/2.89a7047f.chunk.js": "/Bomflix/static/js/2.89a7047f.chunk.js",
+    "static/js/2.89a7047f.chunk.js.map": "/Bomflix/static/js/2.89a7047f.chunk.js.map",
+    "index.html": "/Bomflix/index.html",
+    "precache-manifest.6989fb3890a5f6ba4da028fc8cfd0a6c.js": "/Bomflix/precache-manifest.6989fb3890a5f6ba4da028fc8cfd0a6c.js",
+    "service-worker.js": "/Bomflix/service-worker.js",
+    "static/js/2.89a7047f.chunk.js.LICENSE.txt": "/Bomflix/static/js/2.89a7047f.chunk.js.LICENSE.txt",
+    "static/media/popcorn.jpg": "/Bomflix/static/media/popcorn.635c2bc0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.443498af.js",
+    "static/js/2.89a7047f.chunk.js",
+    "static/js/main.fdbe841b.chunk.js"
+  ]
+}
