@@ -27,7 +27,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage":"https://bomichoi.github.io/bomflix",
+  "homepage":"https://BomiChoi.github.io/Bomflix",
   "browserslist": {
     "production": [
       ">0.2%",
