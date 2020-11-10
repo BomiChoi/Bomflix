@@ -12,11 +12,14 @@ const Container = styled.div`
 `;
 const Form = styled.form`
     margin-bottom: 50px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
 `;
 const Input = styled.input`
     all: unset;
-    font-size: 28px;
     width: 100%;
+    margin-left: 5px;
 `;
 
 const SearchPresenter = ({
@@ -30,10 +33,11 @@ const SearchPresenter = ({
 }) => (
 <>
     <Helmet>
-        <title>Search | Nomflix</title>
+        <title>Search | Bomflix</title>
     </Helmet>
     <Container>
         <Form onSubmit={handleSubmit}>
+            <span>🔍</span>
             <Input 
                 placeholder="Search Movies or TV Shows..." 
                 value={searchTerm} 
@@ -84,6 +88,7 @@ const SearchPresenter = ({
     </Container>
 </>
 );
+
 
 SearchPresenter.propTypes = {
     movieResults: PropTypes.array,

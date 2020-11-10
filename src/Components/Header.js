@@ -24,7 +24,9 @@ const Item = styled.li`
     width: 80px;
     height: 50px;
     text-align: center;
-    border-bottom: 3px solid ${props => props.current ? "#3498db":"transparent"};
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 3px solid ${props => props.current ? "#79e5cb":"transparent"};
     transition: border-bottom .5s ease-in-out;
 `;
 
@@ -33,10 +35,21 @@ const SLink = styled(Link)`
     display: flex;
     align-items: center;
     justify-content: center;
+    span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #62c1aa;
+        text-transform: uppercase;
+        margin: 0 20px;
+    }
+    span:hover {
+        color: #79e5cb;
+    }
 `;
 
 export default withRouter(({location: {pathname}}) => (
     <Header>
+        <SLink to="/"><span>Bomflix</span></SLink>
         <List>
             <Item current={pathname === "/"}><SLink to="/">Movies</SLink></Item>
             <Item current={pathname === "/TV"}><SLink to="/TV">TV</SLink></Item>

@@ -14,7 +14,7 @@ const Container = styled.div`
 const TVPresenter = ({topRated, popular, airingToday, loading, error}) => 
 <>
     <Helmet>
-        <title>TV Shows | Nomflix</title>
+        <title>TV Shows | Bomflix</title>
     </Helmet>
     {loading ? <Loader /> : (
         <Container>

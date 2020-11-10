@@ -41,3 +41,5 @@ export const TVApi =  {
         }
     })
 }
+
+export const collectionApi = (id) => api.get(`collection/${id}`);
